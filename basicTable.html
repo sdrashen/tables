@@ -10,18 +10,33 @@
 
 <body>
     <table>
-        <tr>
-            <th>Nome</th>
-            <th>Idade</th>
-        </tr>
-        <tr>
-            <td>Júnior</td>
-            <td>23</td>
-        </tr>
-        <tr>
-            <td>Ana</td>
-            <td>20</td>
-        </tr>
+        <!--An organized table is better for accessibility-->
+        <!--The caption tag describes what the table is doing. It is also used for accessibility.-->
+        <caption>
+            Produzidos x Vendidos por Loja
+        </caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Júnior</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total:</td>
+                <td>2 pessoas</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 
